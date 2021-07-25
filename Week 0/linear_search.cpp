@@ -3,12 +3,15 @@ using namespace std;
 int main()
 {
     int data,n,i,flag=0;
+    cout<<"Enter no. of elements"<<endl;
     cin>>n;
+    cout<<"Enter the array"<<endl;
     int a[n];
     for(i=0;i<n;i++)
     {
         cin>>a[i];
     }
+    cout<<"Enter the element to be searched"<<endl;
     cin>>data;
     for(i=0;i<n;i++)
     {
@@ -24,3 +27,4 @@ int main()
         cout<<"Not Present";
     }
 }
+
